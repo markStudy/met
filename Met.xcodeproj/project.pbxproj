@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C6036B31E67BF0100D33015 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6036B21E67BF0100D33015 /* main.m */; };
+		6C6036B61E67BF0100D33015 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6036B51E67BF0100D33015 /* AppDelegate.m */; };
+		6C6036B91E67BF0100D33015 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6036B81E67BF0100D33015 /* FirstViewController.m */; };
+		6C6036BC1E67BF0100D33015 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6036BB1E67BF0100D33015 /* SecondViewController.m */; };
+		6C6036BF1E67BF0100D33015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6036BD1E67BF0100D33015 /* Main.storyboard */; };
+		6C6036C11E67BF0100D33015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C6036C01E67BF0100D33015 /* Assets.xcassets */; };
+		6C6036C41E67BF0100D33015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6036C21E67BF0100D33015 /* LaunchScreen.storyboard */; };
+		6C6036D31E67C07100D33015 /* MetExampleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6036D21E67C07100D33015 /* MetExampleHelper.m */; };
+		6C6036D61E67C51100D33015 /* MetShareLibrary.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6C6036D41E67C51100D33015 /* MetShareLibrary.podspec */; };
+		6C6036D71E67C51100D33015 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6C6036D51E67C51100D33015 /* Podfile */; };
+		6C6036D91E67C85600D33015 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6C6036D81E67C85600D33015 /* README.md */; };
+		76C738BFCC517E2C7D0FE513 /* libPods-Met.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB47CC81B312D161A30CC14 /* libPods-Met.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CFBFF80E73EFD3FE3EAE683 /* Pods-Met.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Met.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Met/Pods-Met.debug.xcconfig"; sourceTree = "<group>"; };
+		51774D3000C9573F89DE1025 /* Pods-Met.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Met.release.xcconfig"; path = "Pods/Target Support Files/Pods-Met/Pods-Met.release.xcconfig"; sourceTree = "<group>"; };
+		6C6036AE1E67BF0100D33015 /* Met.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Met.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6036B21E67BF0100D33015 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C6036B41E67BF0100D33015 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C6036B51E67BF0100D33015 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C6036B71E67BF0100D33015 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		6C6036B81E67BF0100D33015 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		6C6036BA1E67BF0100D33015 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		6C6036BB1E67BF0100D33015 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		6C6036BE1E67BF0100D33015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C6036C01E67BF0100D33015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C6036C31E67BF0100D33015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C6036C51E67BF0100D33015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C6036D11E67C07100D33015 /* MetExampleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetExampleHelper.h; sourceTree = "<group>"; };
+		6C6036D21E67C07100D33015 /* MetExampleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetExampleHelper.m; sourceTree = "<group>"; };
+		6C6036D41E67C51100D33015 /* MetShareLibrary.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetShareLibrary.podspec; sourceTree = "<group>"; };
+		6C6036D51E67C51100D33015 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		6C6036D81E67C85600D33015 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6C6036FD1E67CCA900D33015 /* Met.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Met.h; sourceTree = "<group>"; };
+		CEB47CC81B312D161A30CC14 /* libPods-Met.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Met.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C6036AB1E67BF0100D33015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C738BFCC517E2C7D0FE513 /* libPods-Met.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ABFB9C7D5117DDF10326F95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CFBFF80E73EFD3FE3EAE683 /* Pods-Met.debug.xcconfig */,
+				51774D3000C9573F89DE1025 /* Pods-Met.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0CF9C6DA698BB177744610E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEB47CC81B312D161A30CC14 /* libPods-Met.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C6036A51E67BF0100D33015 = {
+			isa = PBXGroup;
+			children = (
+				6C6036D41E67C51100D33015 /* MetShareLibrary.podspec */,
+				6C6036D51E67C51100D33015 /* Podfile */,
+				6C6036D81E67C85600D33015 /* README.md */,
+				6C6036B01E67BF0100D33015 /* Met */,
+				6C6036AF1E67BF0100D33015 /* Products */,
+				0ABFB9C7D5117DDF10326F95 /* Pods */,
+				0CF9C6DA698BB177744610E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C6036AF1E67BF0100D33015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C6036AE1E67BF0100D33015 /* Met.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C6036B01E67BF0100D33015 /* Met */ = {
+			isa = PBXGroup;
+			children = (
+				6C6036FD1E67CCA900D33015 /* Met.h */,
+				6C6036D01E67C07100D33015 /* MetExample */,
+				6C6036B41E67BF0100D33015 /* AppDelegate.h */,
+				6C6036B51E67BF0100D33015 /* AppDelegate.m */,
+				6C6036B71E67BF0100D33015 /* FirstViewController.h */,
+				6C6036B81E67BF0100D33015 /* FirstViewController.m */,
+				6C6036BA1E67BF0100D33015 /* SecondViewController.h */,
+				6C6036BB1E67BF0100D33015 /* SecondViewController.m */,
+				6C6036BD1E67BF0100D33015 /* Main.storyboard */,
+				6C6036C01E67BF0100D33015 /* Assets.xcassets */,
+				6C6036C21E67BF0100D33015 /* LaunchScreen.storyboard */,
+				6C6036C51E67BF0100D33015 /* Info.plist */,
+				6C6036B11E67BF0100D33015 /* Supporting Files */,
+			);
+			path = Met;
+			sourceTree = "<group>";
+		};
+		6C6036B11E67BF0100D33015 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C6036B21E67BF0100D33015 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C6036D01E67C07100D33015 /* MetExample */ = {
+			isa = PBXGroup;
+			children = (
+				6C6036D11E67C07100D33015 /* MetExampleHelper.h */,
+				6C6036D21E67C07100D33015 /* MetExampleHelper.m */,
+			);
+			path = MetExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C6036AD1E67BF0100D33015 /* Met */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C6036C81E67BF0100D33015 /* Build configuration list for PBXNativeTarget "Met" */;
+			buildPhases = (
+				924B7EE55C1DB4D6F32F2ABE /* [CP] Check Pods Manifest.lock */,
+				6C6036AA1E67BF0100D33015 /* Sources */,
+				6C6036AB1E67BF0100D33015 /* Frameworks */,
+				6C6036AC1E67BF0100D33015 /* Resources */,
+				2ED4E11F11B164682A564057 /* [CP] Embed Pods Frameworks */,
+				69D42481D09D052B1596C209 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Met;
+			productName = Met;
+			productReference = 6C6036AE1E67BF0100D33015 /* Met.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C6036A61E67BF0100D33015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Macro;
+				TargetAttributes = {
+					6C6036AD1E67BF0100D33015 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2KMB3EQRW5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6C6036A91E67BF0100D33015 /* Build configuration list for PBXProject "Met" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C6036A51E67BF0100D33015;
+			productRefGroup = 6C6036AF1E67BF0100D33015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C6036AD1E67BF0100D33015 /* Met */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C6036AC1E67BF0100D33015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6036D71E67C51100D33015 /* Podfile in Resources */,
+				6C6036C41E67BF0100D33015 /* LaunchScreen.storyboard in Resources */,
+				6C6036D61E67C51100D33015 /* MetShareLibrary.podspec in Resources */,
+				6C6036C11E67BF0100D33015 /* Assets.xcassets in Resources */,
+				6C6036BF1E67BF0100D33015 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ED4E11F11B164682A564057 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Met/Pods-Met-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69D42481D09D052B1596C209 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Met/Pods-Met-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		924B7EE55C1DB4D6F32F2ABE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C6036AA1E67BF0100D33015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6036D91E67C85600D33015 /* README.md in Sources */,
+				6C6036BC1E67BF0100D33015 /* SecondViewController.m in Sources */,
+				6C6036D31E67C07100D33015 /* MetExampleHelper.m in Sources */,
+				6C6036B61E67BF0100D33015 /* AppDelegate.m in Sources */,
+				6C6036B91E67BF0100D33015 /* FirstViewController.m in Sources */,
+				6C6036B31E67BF0100D33015 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C6036BD1E67BF0100D33015 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C6036BE1E67BF0100D33015 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C6036C21E67BF0100D33015 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C6036C31E67BF0100D33015 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C6036C61E67BF0100D33015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C6036C71E67BF0100D33015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C6036C91E67BF0100D33015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CFBFF80E73EFD3FE3EAE683 /* Pods-Met.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2KMB3EQRW5;
+				INFOPLIST_FILE = Met/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pitaya.Met;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C6036CA1E67BF0100D33015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51774D3000C9573F89DE1025 /* Pods-Met.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2KMB3EQRW5;
+				INFOPLIST_FILE = Met/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pitaya.Met;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C6036A91E67BF0100D33015 /* Build configuration list for PBXProject "Met" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6036C61E67BF0100D33015 /* Debug */,
+				6C6036C71E67BF0100D33015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C6036C81E67BF0100D33015 /* Build configuration list for PBXNativeTarget "Met" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6036C91E67BF0100D33015 /* Debug */,
+				6C6036CA1E67BF0100D33015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C6036A61E67BF0100D33015 /* Project object */;
+}

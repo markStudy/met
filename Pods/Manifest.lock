@@ -1,0 +1,16 @@
+PODS:
+  - ZXCategory (0.0.6):
+    - ZXCategory/EasyLog (= 0.0.6)
+    - ZXCategory/UIView (= 0.0.6)
+  - ZXCategory/EasyLog (0.0.6)
+  - ZXCategory/UIView (0.0.6)
+
+DEPENDENCIES:
+  - ZXCategory
+
+SPEC CHECKSUMS:
+  ZXCategory: 29807964f8de28910077fffa382b0372733bc504
+
+PODFILE CHECKSUM: ea5ea0f099ddd55f997543ad70456a45a9705df1
+
+COCOAPODS: 1.1.1
