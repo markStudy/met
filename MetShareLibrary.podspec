@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author       = { "积木" => "965502512@qq.com" }
   s.platform     = :ios, "7.0"
 
-  s.source       = { :svn => "https://10.0.1.53/svn/xunke/code/branches/community_iOS_branches/Met"}
+  s.source       = { :git => "https://github.com/markStudy/met.git"}
   s.source_files = "README.md"
   # s.frameworks = "SomeFramework", "AnotherFramework"
   # s.libraries = "iconv", "xml2"
