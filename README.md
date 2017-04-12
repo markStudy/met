@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Met Share Library
 
 
@@ -21,3 +22,7 @@ pod spec create SpecName
 ## 配置（关键）
 SpecName.podspec
 
+=======
+# met
+testPod
+>>>>>>> 3a2f4ceda5fe0c23a7ca55f7fc4bcc3287b6bac4
